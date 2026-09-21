@@ -1,0 +1,10 @@
+{
+  "name": "pixxelmind-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "python3 -m http.server 5173 --bind 127.0.0.1",
+    "check": "node --check app.js && node --check hero.js && node --check site-config.js"
+  }
+}
